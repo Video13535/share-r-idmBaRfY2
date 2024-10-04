@@ -55,12 +55,20 @@ select {
   outline: none;
   transition: 0.3s;
 }
+.input-box .input-field:focus::placeholder {
+  font-size: 12px;
+  transform: translateY(-17px);
+  color: #4f6270;
+}
 ::placeholder {
   font-weight: 435;
   color: #6d7d8f;
 }
 .input-field:focus {
-  width: 101%;
+  outline: none;
+  border: 1px solid #6d7d8f;
+  border-radius: 10px;
+  width: %;
 }
 .forgot {
   display: flex;
