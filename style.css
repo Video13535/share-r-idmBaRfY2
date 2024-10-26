@@ -62,7 +62,7 @@ select {
   color: #4f6270;
 }
 ::placeholder {
-  font-weight: 435;
+  font-weight: 500;
   color: #6d7d8f;
 }
 .input-field:focus {
@@ -235,15 +235,15 @@ z-index: 1000; /* Agregar un z-index alto */
   transform: translate(-50%, -50%);
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #cerrar-modal {
   position: absolute;
   font-size:13px;
-right: 10px;
-bottom: 10px;
+right: 25px;
+bottom: 15px;
   border:none;
   color:#1877f2;
 background-color:#fff;
@@ -258,10 +258,11 @@ background-color:#fff;
 
 #eye {
   position: absolute;
-  right: 10px;
-  top: 50%;
+  font-size:17px;
+  right: 15px;
+  top: 40%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: #6d7d8f;
+  color: #4f6270;
 }
 
